@@ -1,0 +1,43 @@
+#dashboard{
+    background: url('../img/background.jpg');
+    background-position: center;
+}
+
+@media (max-width:535px) {
+    /* .card-img-top{
+        margin-top: -30px;
+    } */
+
+    /* #wikrama-logo{
+        display: none;
+    } */
+
+    .card-text {
+        display: none;
+    }
+/* 
+    #rpl-logo{
+        margin: auto;
+    } */
+}
+
+@media (min-width:536px) {
+    /* .card-img-top{
+        margin-top: -60px;
+    } */
+
+    /* #rpl-logo{
+        margin: auto;
+    } */
+}
+
+.card-text{
+    font-size: small;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-item {
+    display: flex;
+    align-items: flex-end;
+}
+
